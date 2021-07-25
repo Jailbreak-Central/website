@@ -1,0 +1,14 @@
+html,body{
+    margin:0px;
+    font-family:helvetica;
+    background-color:#620FC1;
+    color:#620FC1;
+}
+
+.top{
+    width:90%;
+    padding-bottom:40px;
+    border-radius:20px;
+    background-color:#242526;
+    text-align: center;
+}
