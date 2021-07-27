@@ -1,0 +1,27 @@
+@supports (
+  (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))
+) {
+  .nav {
+    position: fixed;
+    bottom: 0px;
+    left: 5.6%;
+    z-index: 99;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    margin-bottom: 10px;
+    width: 80%;
+    background-color:#D2EFFD;
+    border-radius: 15px;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+}
+
+.nav img {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: inline-block;
+}

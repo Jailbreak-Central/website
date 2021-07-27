@@ -1,0 +1,1 @@
+Copyright by JB Central Team
